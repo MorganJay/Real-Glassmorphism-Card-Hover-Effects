@@ -45,6 +45,7 @@ body::after {
   max-width: 1200px;
   flex-wrap: wrap;
   z-index: 1;
+  padding-bottom: 30px;
 }
 
 .container .card {
@@ -118,18 +119,6 @@ body::after {
   position: fixed;
   bottom: 10px;
   z-index: -1;
-  margin: 10px;
-}
-
-footer {
-  color: white;
-  text-align: center;
-  margin: 10px;
-  bottom: 0;
-  justify-self: center;
-  align-self: flex-end;
-  margin: 10px;
-  /* left: 50%; */
 }
 
 .copyright a {
