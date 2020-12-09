@@ -9,8 +9,8 @@
 
 body {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   background: #161623;
 }
@@ -111,14 +111,14 @@ body::after {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-p{
-    color: white;
-    align-self: flex-end;
-    justify-content: center;
-    position: fixed;
-    bottom: 10px;
-    z-index: -1;
-    margin: 10px;
+.copyright {
+  color: white;
+  align-self: flex-end;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  z-index: -1;
+  margin: 10px;
 }
 
 footer {
@@ -128,15 +128,14 @@ footer {
   bottom: 0;
   justify-self: center;
   align-self: flex-end;
-margin: 10px;
+  margin: 10px;
   /* left: 50%; */
 }
 
-p a {
+.copyright a {
   color: white;
 }
 
-p a:hover {
+.copyright a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-
